@@ -1,8 +1,14 @@
 public class Main {
     public static void main(String[] args){
-        int b = 0;
-        int a = ++b;
-        System.out.print(a);
-
+        int gun = 2;
+        switch (gun) {
+            case 2:
+                System.out.println("Bugün cumartesi");
+            case 3:
+                System.out.println("Bugün pazar");
+                break;
+            default:
+                System.out.println("Bugün hafta içi");
+        }
     }
 }
