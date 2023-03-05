@@ -9,11 +9,7 @@ public class palindrom_sayi {
             reverse = reverse*10 + lastNum;
             temp /= 10;
         }
-        if (sayi == reverse){
-            return true;
-        }else {
-            return false;
-        }
+        return sayi == reverse;
     }
 
     public static void main(String[] args){
