@@ -1,10 +1,8 @@
 public class Main {
-    public static void main(String[] args){
-        Fighter f1 = new Fighter("A",10,120,100);
-        Fighter f2 = new Fighter("B",20,85,85);
-
-        Match match = new Match(f1,f2,90,95);
-        match.run();
-
+    public static void main(String[] args) {
+        Fighter marc = new Fighter("Marc" , 15 , 100, 90, 0);
+        Fighter alex = new Fighter("Alex" , 10 , 95, 100, 0);
+        Ring r = new Ring(marc,alex , 90 , 100);
+        r.run();
     }
 }
