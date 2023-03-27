@@ -1,3 +1,5 @@
+package Siniflar.Maas_hesaplayici;
+
 public class Employee {
     String name;
     double salary;
