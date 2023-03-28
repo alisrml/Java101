@@ -22,7 +22,7 @@ public class pratik_01 {
                 System.out.println("Daha büyük bir sayı giriniz.");
             } else if (tahmin==sayi) {
                 System.out.printf("Toplam %d denemede %d sayısını doğru tahmin ettiniz.",tahmin_say,sayi);
-                break;
+                isWin = true;
             }
         }
     }
